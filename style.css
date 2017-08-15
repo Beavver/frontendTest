@@ -1,0 +1,276 @@
+#container_cont{
+	width: 1318px !important;
+	height: 591px !important;
+	position: relative;
+}
+#container_cont_3{
+	width: 1140px !important;
+}
+.cont_tab{width: 900px;}
+@media screen and (max-width: 1430px){
+	#container_cont{width: 1218px !important;}
+	.truck_img{width: 80%;}
+	#container_cont_3{width: 1040px !important;}
+	.wrench_img{left: 155px !important;}
+	.snow_img{left: 152px !important;}
+	.potter_img{left: 164px !important;}
+	.tabs{width: 774px;}
+	.title{font-size: 26px !important;}
+}
+@media screen and (max-width: 1300px){
+	#container_cont{width: 1100px !important;}
+	.truck_img{width: 70%;}
+	#container_cont_3{width: 940px !important;}
+	.wrench_img{left: 138px !important;}
+	.snow_img{left: 134px !important;}
+	.potter_img{left: 147px !important;}
+	.tabs{width: 700px; font-size: 13px;}
+	.title{font-size: 25px !important;}
+	.calculation{width: 254px !important; height: 55px !important;}
+	.calculation_child{width: 242px !important; height: 43px !important;}
+}
+@media screen and (max-width: 1220px){
+	#container_cont{width: 1000px !important;}
+	.truck_img{width: 60%;}
+	#container_cont_3{width: 810px !important;}
+	.cont_tab{width: 800px !important;}
+	.wrench_img{left: 114px !important;}
+	.snow_img{left: 112px !important;}
+	.potter_img{left: 123px !important;}
+	.tabs{width: 635px; font-size: 12px;}
+	.title{font-size: 23px !important;}
+	.max_load{width:237px !important; height: 43px !important; padding: 9px !important; padding-left: 14px; }
+	.max_load>span{font-size: 11px !important;}
+	.max_load_circle{right: 233px !important; top: -20px !important;}
+}
+@media screen and (max-width: 1130px){
+	#container_cont{width: 900px !important;}
+	.truck_img{width: 50%;}
+	.cont_tab{width: 700px !important;}
+	#container_cont_3{width: 710px !important;}
+	.wrench_img{left: 101px !important;}
+	.snow_img{left: 95px !important;}
+	.potter_img{left: 109px !important;}
+	.title{font-size: 21px !important;}
+}
+@media screen and (max-width: 1060px){
+	#container_cont{width: 800px !important;}
+	.truck_img{width: 40%;}
+	#container_cont_3{width: 610px !important;}
+	.wrench_img{left: 82px !important;}
+	.snow_img{left: 80px !important;}
+	.potter_img{left: 92px !important;}
+	.title{font-size: 20px !important;}
+	.calculation{width: 214px !important; height: 43px !important;}
+	.calculation_child{width: 202px !important; height: 31px !important;}
+	.calculation_child>p{padding-top: 6px !important;}
+	.max_load{width:284px !important; height: 49px !important; padding: 13px !important; }
+	.max_load>span{font-size: 13px !important;}
+	.max_load_circle{right: 276px !important; top: -18px !important;}
+	.tabs{width: 823px !important; font-size: 12px !important;}
+	.cont_tab{width: 600px !important;}
+}
+.title{
+	font-size: 27px;
+}
+.truck_img{width: 80%;}
+
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
+     color: #426794 !important; 
+     background-color: white !important; 
+     font-weight: bold;
+}
+.nav-pills>li>a{
+	color: #64828c !important;
+	text-decoration: underline;
+}
+.nav-pills>li>a:hover{
+	background-color: white !important; 
+}
+.tabs{
+	width: 900px;
+}
+/*.tab1>a{
+	padding-left: 0;
+	float: left;
+}*/
+.truck{
+	margin-top: 54px;
+}
+.chevron_l_div{
+	height: 120px; 
+	width: 30px; 
+	z-index: 3; 
+	position: absolute;
+	top: 42%;
+	/*left: 338px;*/
+}
+.chevron_r_div{
+	height: 120px; 
+	width: 30px; 
+	z-index: 3; 
+	position: absolute;
+	top: 42%;
+	left: 100%;
+}
+.main_content{
+	/*swidth: 1165px;*/
+}
+
+
+.circle{
+  	width: 42px;
+  	height: 42px;
+ 	border-radius: 50%;
+  	background-color: #c03f36;
+  	box-shadow: 0 0 0 .1em #c03f36 inset,
+    0 0 0 .35em white inset
+    ;
+}
+.circle:hover{
+	background-color: blue;
+  	box-shadow: 0 0 0 .1em blue inset,
+    0 0 0 .35em white inset
+}
+.circle>center>i{
+	font-size: 20px;
+	padding-top: 10px;
+	color: white;
+}
+#road{
+	position: absolute;
+    left: 17%;
+    bottom: 51%;
+}
+.circle:hover::after{
+	content: attr(data-title);
+	position: absolute;
+    padding: 4px;
+    background-color: white;
+    border: 1px solid;
+    margin-top: 11px;
+}
+#bus{
+	position: absolute;
+	left: 41.1%;
+    bottom: 44%;
+}
+#truck{
+	position: absolute;
+	left: 54%;
+    bottom: 53%;
+}
+#plus{
+	position: absolute;
+	left: 58%;
+    bottom: 26%;
+
+}
+#plus>center>i{
+	padding-top: 12px;
+}
+#clock{
+	position: absolute;
+	left: 69.6%;
+    bottom: 25.7%;
+}
+#clock>center>i{
+	padding-top: 11px;
+}
+#arrows_h{
+	position: absolute;
+    left: 40%;
+    bottom: 30%;
+}
+#arrows_h>center>i{
+	font-size: 21px;
+	padding-top: 11px;
+}
+#arrows_v{
+	position: absolute;
+	left: 82%;
+    bottom: 14%;
+}
+#arrows_v>center>i{
+	font-size: 21px;
+	padding-top: 11px;
+	transform: rotate(-45deg);
+    margin-right: 6px
+}
+#circle_2{
+	margin-bottom: 29px;
+	width: 105px;
+  	height: 105px;
+ 	border-radius: 50%;
+  	background-color: white;
+  	box-shadow: 0 0 0 .1em white inset,
+    0 0 0 .27em #6f8bae inset,
+    0 0 0 .7em white inset,
+    0 0 0 .9em #e0e7ed inset,
+	0 0 0 3.8em #f2f6fa inset;
+}
+.wrench_img{
+	position: absolute;
+    left: 172px;
+    top: 33px;
+}
+.snow_img{
+	position: absolute;
+    left: 167px;
+    top: 27px;
+}
+.potter_img{
+	position: absolute;
+    left: 180px;
+    top: 31px;
+}
+.calculation{
+	margin-top: 48px;
+	background-color: white;
+	width: 326px;
+	height: 60px;
+	border: 4px solid #c03f36;
+	border-radius: 8px;
+	margin-bottom: 40px;	
+	padding: 0 !important;
+}
+.calculation_child{
+	background-color: #c03f36;
+	border-radius: 5px;
+	height: 48px;
+	width: 314px;
+	margin-left: 2px;
+	margin-top: 2px;
+}
+.calculation_child>p{
+	color: white;
+	font-size: 17px;
+    padding-top: 12px;
+}
+.max_load{
+	height: 64px;
+	width: 342px;
+	border: 2px solid #1b5287;
+}
+.max_load_circle{
+	width: 40px;
+  	height: 40px;
+ 	border-radius: 50%;
+  	background-color: white;
+  	box-shadow: 0 0 0 .1em white inset,
+    0 0 0 .27em #1b5287 inset,
+    0 0 0 .6em white inset,
+    0 0 0 .9em #1b5287 inset,
+	0 0 0 3.8em #1b5287 inset;
+	position: absolute;
+	right: 335px;
+    top: -10px;
+}
+.max_load_circle>center>i{
+	position: absolute;
+	color: white;
+    font-size: 16px;
+    top: 11px;
+    left: 13px;
+}
